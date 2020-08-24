@@ -12,7 +12,7 @@ docker run -d -p 80:80 nginx --> Here we are running the same command in detache
 - As we can see below, when we run docker images it shows us all the images we have
 available
 
-![](/images/run-docker-images)
+![](images/run-docker-images)
 
 
 ## Adding winpty docker to ENV variables
@@ -35,19 +35,19 @@ docker exec -it container_id sh
 - Once in we can then run commands that we would run on a virtual machine to see
 the folders present, env variables etc
 
-![](/images/Entering-Docker-Container)
+![](images/Entering-Docker-Container)
 
 ## Creating a repository on Docker
 
 #### 2) Create a Docker hub account and locate to the website https://hub.docker.com/
 
 #### 2) Click on Create repository
-![](/images/create-repo-docker)
+![](images/create-repo-docker)
 
 
 #### 3) Give the repo a convenient name and then click Create
 
-![](/images/Click-create)
+![](images/Click-create)
 
 ## Pushing an image to your own Docker repository
 
@@ -61,7 +61,7 @@ docker run -d -p 80:80 nginx
 
 #### 3) When we run ``docker ps`` it will show us the image id of all the images we have pulled
 
-![](/images/pushing-nginx-image)
+![](images/pushing-nginx-image)
 
 #### 4) We can now push this image to our own repository running the following commands
 
@@ -87,10 +87,10 @@ docker run -d -p 200:80 danteegan/daniel-teegan-eng-67:First_commit_docker
 
 #### 2) We can now see the image we pulled is now running as a container
 
-![](/images/daniel-app-running)
+![](images/daniel-app-running)
 
 #### 3) We can now go to port 200 on our local host and see the nginx container running successfully
-![](/images/nginx-port-200)
+![](images/nginx-port-200)
 
 
 ## Port mapping
